@@ -1,0 +1,656 @@
+1:06:36 PM: $ npm run build
+1:06:36 PM: > ai-image-tool-suite@1.0.0 build
+1:06:36 PM: > tsc && mkdir -p dist && cp -r components constants hooks services *.html *.css *.js *.json dist
+1:06:37 PM: App.tsx(1,42): error TS7016: Could not find a declaration file for module 'react'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/index.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+1:06:37 PM: App.tsx(44,5): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+1:06:37 PM: App.tsx(47,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: App.tsx(50,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: App.tsx(51,17): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: App.tsx(52,21): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: App.tsx(52,108): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: App.tsx(53,21): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: App.tsx(53,136): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: App.tsx(54,21): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: App.tsx(54,76): error TS7006: Parameter 'e' implicitly has an 'any' type.
+1:06:37 PM: App.tsx(57,37): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: App.tsx(58,17): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: App.tsx(59,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: App.tsx(61,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: App.tsx(62,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: App.tsx(70,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: App.tsx(71,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: App.tsx(76,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: App.tsx(77,14): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: App.tsx(78,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: App.tsx(83,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: App.tsx(84,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: App.tsx(87,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: App.tsx(88,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: App.tsx(89,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: App.tsx(91,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/AdBanner.tsx(1,42): error TS7016: Could not find a declaration file for module 'react'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/index.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+1:06:37 PM: components/AdBanner.tsx(37,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/AdBanner.tsx(37,5): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+1:06:37 PM: components/AdBanner.tsx(38,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/AdBanner.tsx(38,33): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/AdBanner.tsx(39,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Article.tsx(1,19): error TS7016: Could not find a declaration file for module 'react'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/index.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+1:06:37 PM: components/Article.tsx(12,44): error TS7031: Binding element 'article' implicitly has an 'any' type.
+1:06:37 PM: components/Article.tsx(16,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Article.tsx(16,5): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+1:06:37 PM: components/Article.tsx(21,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Article.tsx(21,26): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Article.tsx(22,29): error TS7006: Parameter 'paragraph' implicitly has an 'any' type.
+1:06:37 PM: components/Article.tsx(22,40): error TS7006: Parameter 'index' implicitly has an 'any' type.
+1:06:37 PM: components/Article.tsx(23,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Article.tsx(25,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Article.tsx(27,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Article.tsx(28,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Article.tsx(28,22): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Article.tsx(29,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Article.tsx(30,34): error TS7006: Parameter 'keyword' implicitly has an 'any' type.
+1:06:37 PM: components/Article.tsx(31,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Article.tsx(33,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Article.tsx(35,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Article.tsx(36,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Article.tsx(37,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Footer.tsx(1,19): error TS7016: Could not find a declaration file for module 'react'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/index.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+1:06:37 PM: components/Footer.tsx(5,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Footer.tsx(5,5): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+1:06:37 PM: components/Footer.tsx(6,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Footer.tsx(7,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Footer.tsx(7,63): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Footer.tsx(8,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Footer.tsx(9,17): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Footer.tsx(9,55): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Footer.tsx(10,17): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Footer.tsx(10,44): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Footer.tsx(11,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Footer.tsx(12,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Footer.tsx(13,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(1,19): error TS7016: Could not find a declaration file for module 'react'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/index.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+1:06:37 PM: components/Header.tsx(7,42): error TS7031: Binding element 'onHomeClick' implicitly has an 'any' type.
+1:06:37 PM: components/Header.tsx(14,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(14,5): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+1:06:37 PM: components/Header.tsx(15,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(16,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(17,17): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(18,21): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(19,25): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(20,29): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(21,29): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(22,25): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(23,21): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(24,21): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(24,142): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(25,17): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(26,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(27,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(28,17): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(28,58): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(29,17): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(29,59): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(30,17): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(30,44): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(31,17): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(31,48): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(32,17): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(32,195): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(33,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(34,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(35,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(1,46): error TS7016: Could not find a declaration file for module 'react'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/index.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+1:06:37 PM: components/IconGenerator.tsx(12,56): error TS7031: Binding element 'tool' implicitly has an 'any' type.
+1:06:37 PM: components/IconGenerator.tsx(40,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(40,5): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+1:06:37 PM: components/IconGenerator.tsx(41,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(42,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(42,25): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(43,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(43,30): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(44,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(46,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(47,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(50,22): error TS7006: Parameter 'e' implicitly has an 'any' type.
+1:06:37 PM: components/IconGenerator.tsx(55,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(61,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(62,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(64,17): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(64,53): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(66,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(67,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(68,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(71,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(74,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(74,92): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(76,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(77,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(78,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(81,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(82,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(88,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(89,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(91,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageCompareSlider.tsx(1,54): error TS7016: Could not find a declaration file for module 'react'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/index.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+1:06:37 PM: components/ImageCompareSlider.tsx(8,66): error TS7031: Binding element 'before' implicitly has an 'any' type.
+1:06:37 PM: components/ImageCompareSlider.tsx(8,74): error TS7031: Binding element 'after' implicitly has an 'any' type.
+1:06:37 PM: components/ImageCompareSlider.tsx(31,29): error TS6133: 'e' is declared but its value is never read.
+1:06:37 PM: components/ImageCompareSlider.tsx(42,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageCompareSlider.tsx(42,5): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+1:06:37 PM: components/ImageCompareSlider.tsx(43,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageCompareSlider.tsx(43,89): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageCompareSlider.tsx(44,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageCompareSlider.tsx(48,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageCompareSlider.tsx(53,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageCompareSlider.tsx(57,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageCompareSlider.tsx(62,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageCompareSlider.tsx(63,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageCompareSlider.tsx(69,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageCompareSlider.tsx(70,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageCompareSlider.tsx(71,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageCompareSlider.tsx(72,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageCompareSlider.tsx(73,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageCompareSlider.tsx(74,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageCompareSlider.tsx(75,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageCompareSlider.tsx(76,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(1,46): error TS7016: Could not find a declaration file for module 'react'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/index.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+1:06:37 PM: components/ImageProcessor.tsx(47,58): error TS7031: Binding element 'tool' implicitly has an 'any' type.
+1:06:37 PM: components/ImageProcessor.tsx(112,82): error TS7031: Binding element 'src' implicitly has an 'any' type.
+1:06:37 PM: components/ImageProcessor.tsx(112,87): error TS7031: Binding element 'alt' implicitly has an 'any' type.
+1:06:37 PM: components/ImageProcessor.tsx(112,92): error TS7031: Binding element 'label' implicitly has an 'any' type.
+1:06:37 PM: components/ImageProcessor.tsx(113,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(114,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(114,52): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(115,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(116,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(117,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(118,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(130,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(130,5): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+1:06:37 PM: components/ImageProcessor.tsx(131,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(132,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(132,25): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(133,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(133,30): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(134,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(136,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(137,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(138,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(139,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(140,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(141,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(141,93): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(142,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(142,66): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(143,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(144,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(146,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(152,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(153,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(155,17): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(155,53): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(157,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(170,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(172,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(180,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(183,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(184,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(190,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(191,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(193,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Loader.tsx(1,19): error TS7016: Could not find a declaration file for module 'react'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/index.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+1:06:37 PM: components/Loader.tsx(9,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Loader.tsx(9,5): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+1:06:37 PM: components/Loader.tsx(10,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Loader.tsx(10,101): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Loader.tsx(11,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Loader.tsx(11,64): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Loader.tsx(12,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ToolCard.tsx(1,19): error TS7016: Could not find a declaration file for module 'react'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/index.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+1:06:37 PM: components/ToolCard.tsx(10,46): error TS7031: Binding element 'tool' implicitly has an 'any' type.
+1:06:37 PM: components/ToolCard.tsx(10,52): error TS7031: Binding element 'onSelect' implicitly has an 'any' type.
+1:06:37 PM: components/ToolCard.tsx(15,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ToolCard.tsx(15,5): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+1:06:37 PM: components/ToolCard.tsx(20,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ToolCard.tsx(22,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ToolCard.tsx(23,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ToolCard.tsx(23,48): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ToolCard.tsx(24,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ToolCard.tsx(24,23): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ToolCard.tsx(25,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/WatermarkSelector.tsx(1,53): error TS7016: Could not find a declaration file for module 'react'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/index.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+1:06:37 PM: components/WatermarkSelector.tsx(8,64): error TS7031: Binding element 'imageUrl' implicitly has an 'any' type.
+1:06:37 PM: components/WatermarkSelector.tsx(8,74): error TS7031: Binding element 'onAreaSelect' implicitly has an 'any' type.
+1:06:37 PM: components/WatermarkSelector.tsx(61,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/WatermarkSelector.tsx(61,5): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+1:06:37 PM: components/WatermarkSelector.tsx(62,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/WatermarkSelector.tsx(62,118): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/WatermarkSelector.tsx(63,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/WatermarkSelector.tsx(71,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/WatermarkSelector.tsx(78,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/WatermarkSelector.tsx(88,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/WatermarkSelector.tsx(89,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: constants/tools.tsx(1,19): error TS7016: Could not find a declaration file for module 'react'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/index.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+1:06:37 PM: constants/tools.tsx(4,73): error TS7006: Parameter 'props' implicitly has an 'any' type.
+1:06:37 PM: constants/tools.tsx(5,3): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: constants/tools.tsx(5,3): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+1:06:37 PM: constants/tools.tsx(6,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: constants/tools.tsx(7,3): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: constants/tools.tsx(10,72): error TS7006: Parameter 'props' implicitly has an 'any' type.
+1:06:37 PM: constants/tools.tsx(11,3): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: constants/tools.tsx(12,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: constants/tools.tsx(13,3): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: constants/tools.tsx(16,69): error TS7006: Parameter 'props' implicitly has an 'any' type.
+1:06:37 PM: constants/tools.tsx(17,3): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: constants/tools.tsx(18,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: constants/tools.tsx(19,3): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: constants/tools.tsx(22,70): error TS7006: Parameter 'props' implicitly has an 'any' type.
+1:06:37 PM: constants/tools.tsx(23,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: constants/tools.tsx(24,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: constants/tools.tsx(25,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: constants/tools.tsx(26,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: constants/tools.tsx(27,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: constants/tools.tsx(28,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: constants/tools.tsx(29,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: constants/tools.tsx(32,69): error TS7006: Parameter 'props' implicitly has an 'any' type.
+1:06:37 PM: constants/tools.tsx(33,3): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: constants/tools.tsx(34,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: constants/tools.tsx(35,3): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: hooks/useScrollAnimation.ts(1,45): error TS7016: Could not find a declaration file for module 'react'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/index.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+1:06:37 PM: index.tsx(1,19): error TS7016: Could not find a declaration file for module 'react'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/index.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+1:06:37 PM: index.tsx(2,22): error TS7016: Could not find a declaration file for module 'react-dom/client'. '/opt/build/repo/ImagesToolWebsite/node_modules/react-dom/client.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react-dom` if it exists or add a new declaration (.d.ts) file containing `declare module 'react-dom/client';`
+1:06:37 PM: index.tsx(13,3): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+1:06:37 PM: netlify/functions/gemini-proxy.ts(4,17): error TS2580: Cannot find name 'process'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node`.
+1:06:37 PM: types.ts(1,19): error TS7016: Could not find a declaration file for module 'react'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/index.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+1:06:37 PM: vite.config.ts(1,18): error TS2307: Cannot find module 'path' or its corresponding type declarations.
+1:06:37 PM: vite.config.ts(2,39): error TS2307: Cannot find module 'vite' or its corresponding type declarations.
+1:06:37 PM: vite.config.ts(3,19): error TS2307: Cannot find module '@vitejs/plugin-react' or its corresponding type declarations.
+1:06:37 PM: vite.config.ts(19,29): error TS2580: Cannot find name 'process'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node`.
+1:06:37 PM: ​
+1:06:37 PM: "build.command" failed                                        
+1:06:37 PM: ────────────────────────────────────────────────────────────────
+1:06:37 PM: ​
+1:06:37 PM:   Error message
+1:06:37 PM:   Command failed with exit code 2: npm run build
+1:06:37 PM: ​
+1:06:37 PM:   Error location
+1:06:37 PM:   In build.command from netlify.toml:
+Building
+Failed
+1:06:36 PM: Netlify Build                                                 
+1:06:36 PM: ────────────────────────────────────────────────────────────────
+1:06:36 PM: ​
+1:06:36 PM: ❯ Version
+1:06:36 PM:   @netlify/build 35.3.1
+1:06:36 PM: ​
+1:06:36 PM: ❯ Flags
+1:06:36 PM:   accountId: 6877b7cc591b4a25ff8b1dbe
+1:06:36 PM:   baseRelDir: true
+1:06:36 PM:   buildId: 690b057e9a338715da139450
+1:06:36 PM:   deployId: 690b057e9a338715da139452
+1:06:36 PM: ​
+1:06:36 PM: ❯ Current directory
+1:06:36 PM:   /opt/build/repo/ImagesToolWebsite
+1:06:36 PM: ​
+1:06:36 PM: ❯ Config file
+1:06:36 PM:   /opt/build/repo/ImagesToolWebsite/netlify.toml
+1:06:36 PM: ​
+1:06:36 PM: ❯ Context
+1:06:36 PM:   production
+1:06:36 PM: ​
+1:06:36 PM: build.command from netlify.toml                               
+1:06:36 PM: ────────────────────────────────────────────────────────────────
+1:06:36 PM: ​
+1:06:36 PM: $ npm run build
+1:06:36 PM: > ai-image-tool-suite@1.0.0 build
+1:06:36 PM: > tsc && mkdir -p dist && cp -r components constants hooks services *.html *.css *.js *.json dist
+1:06:37 PM: App.tsx(1,42): error TS7016: Could not find a declaration file for module 'react'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/index.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+1:06:37 PM: App.tsx(44,5): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+1:06:37 PM: App.tsx(47,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: App.tsx(50,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: App.tsx(51,17): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: App.tsx(52,21): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: App.tsx(52,108): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: App.tsx(53,21): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: App.tsx(53,136): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: App.tsx(54,21): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: App.tsx(54,76): error TS7006: Parameter 'e' implicitly has an 'any' type.
+1:06:37 PM: App.tsx(57,37): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: App.tsx(58,17): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: App.tsx(59,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: App.tsx(61,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: App.tsx(62,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: App.tsx(70,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: App.tsx(71,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: App.tsx(76,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: App.tsx(77,14): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: App.tsx(78,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: App.tsx(83,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: App.tsx(84,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: App.tsx(87,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: App.tsx(88,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: App.tsx(89,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: App.tsx(91,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/AdBanner.tsx(1,42): error TS7016: Could not find a declaration file for module 'react'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/index.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+1:06:37 PM: components/AdBanner.tsx(37,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/AdBanner.tsx(37,5): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+1:06:37 PM: components/AdBanner.tsx(38,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/AdBanner.tsx(38,33): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/AdBanner.tsx(39,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Article.tsx(1,19): error TS7016: Could not find a declaration file for module 'react'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/index.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+1:06:37 PM: components/Article.tsx(12,44): error TS7031: Binding element 'article' implicitly has an 'any' type.
+1:06:37 PM: components/Article.tsx(16,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Article.tsx(16,5): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+1:06:37 PM: components/Article.tsx(21,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Article.tsx(21,26): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Article.tsx(22,29): error TS7006: Parameter 'paragraph' implicitly has an 'any' type.
+1:06:37 PM: components/Article.tsx(22,40): error TS7006: Parameter 'index' implicitly has an 'any' type.
+1:06:37 PM: components/Article.tsx(23,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Article.tsx(25,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Article.tsx(27,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Article.tsx(28,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Article.tsx(28,22): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Article.tsx(29,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Article.tsx(30,34): error TS7006: Parameter 'keyword' implicitly has an 'any' type.
+1:06:37 PM: components/Article.tsx(31,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Article.tsx(33,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Article.tsx(35,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Article.tsx(36,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Article.tsx(37,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Footer.tsx(1,19): error TS7016: Could not find a declaration file for module 'react'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/index.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+1:06:37 PM: components/Footer.tsx(5,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Footer.tsx(5,5): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+1:06:37 PM: components/Footer.tsx(6,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Footer.tsx(7,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Footer.tsx(7,63): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Footer.tsx(8,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Footer.tsx(9,17): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Footer.tsx(9,55): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Footer.tsx(10,17): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Footer.tsx(10,44): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Footer.tsx(11,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Footer.tsx(12,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Footer.tsx(13,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(1,19): error TS7016: Could not find a declaration file for module 'react'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/index.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+1:06:37 PM: components/Header.tsx(7,42): error TS7031: Binding element 'onHomeClick' implicitly has an 'any' type.
+1:06:37 PM: components/Header.tsx(14,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(14,5): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+1:06:37 PM: components/Header.tsx(15,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(16,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(17,17): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(18,21): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(19,25): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(20,29): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(21,29): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(22,25): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(23,21): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(24,21): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(24,142): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(25,17): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(26,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(27,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(28,17): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(28,58): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(29,17): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(29,59): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(30,17): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(30,44): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(31,17): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(31,48): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(32,17): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(32,195): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(33,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(34,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Header.tsx(35,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(1,46): error TS7016: Could not find a declaration file for module 'react'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/index.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+1:06:37 PM: components/IconGenerator.tsx(12,56): error TS7031: Binding element 'tool' implicitly has an 'any' type.
+1:06:37 PM: components/IconGenerator.tsx(40,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(40,5): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+1:06:37 PM: components/IconGenerator.tsx(41,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(42,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(42,25): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(43,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(43,30): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(44,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(46,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(47,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(50,22): error TS7006: Parameter 'e' implicitly has an 'any' type.
+1:06:37 PM: components/IconGenerator.tsx(55,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(61,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(62,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(64,17): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(64,53): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(66,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(67,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(68,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(71,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(74,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(74,92): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(76,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(77,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(78,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(81,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(82,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(88,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(89,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/IconGenerator.tsx(91,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageCompareSlider.tsx(1,54): error TS7016: Could not find a declaration file for module 'react'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/index.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+1:06:37 PM: components/ImageCompareSlider.tsx(8,66): error TS7031: Binding element 'before' implicitly has an 'any' type.
+1:06:37 PM: components/ImageCompareSlider.tsx(8,74): error TS7031: Binding element 'after' implicitly has an 'any' type.
+1:06:37 PM: components/ImageCompareSlider.tsx(31,29): error TS6133: 'e' is declared but its value is never read.
+1:06:37 PM: components/ImageCompareSlider.tsx(42,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageCompareSlider.tsx(42,5): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+1:06:37 PM: components/ImageCompareSlider.tsx(43,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageCompareSlider.tsx(43,89): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageCompareSlider.tsx(44,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageCompareSlider.tsx(48,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageCompareSlider.tsx(53,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageCompareSlider.tsx(57,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageCompareSlider.tsx(62,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageCompareSlider.tsx(63,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageCompareSlider.tsx(69,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageCompareSlider.tsx(70,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageCompareSlider.tsx(71,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageCompareSlider.tsx(72,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageCompareSlider.tsx(73,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageCompareSlider.tsx(74,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageCompareSlider.tsx(75,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageCompareSlider.tsx(76,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(1,46): error TS7016: Could not find a declaration file for module 'react'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/index.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+1:06:37 PM: components/ImageProcessor.tsx(47,58): error TS7031: Binding element 'tool' implicitly has an 'any' type.
+1:06:37 PM: components/ImageProcessor.tsx(112,82): error TS7031: Binding element 'src' implicitly has an 'any' type.
+1:06:37 PM: components/ImageProcessor.tsx(112,87): error TS7031: Binding element 'alt' implicitly has an 'any' type.
+1:06:37 PM: components/ImageProcessor.tsx(112,92): error TS7031: Binding element 'label' implicitly has an 'any' type.
+1:06:37 PM: components/ImageProcessor.tsx(113,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(114,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(114,52): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(115,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(116,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(117,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(118,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(130,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(130,5): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+1:06:37 PM: components/ImageProcessor.tsx(131,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(132,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(132,25): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(133,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(133,30): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(134,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(136,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(137,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(138,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(139,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(140,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(141,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(141,93): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(142,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(142,66): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(143,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(144,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(146,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(152,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(153,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(155,17): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(155,53): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(157,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(170,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(172,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(180,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(183,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(184,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(190,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(191,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ImageProcessor.tsx(193,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Loader.tsx(1,19): error TS7016: Could not find a declaration file for module 'react'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/index.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+1:06:37 PM: components/Loader.tsx(9,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Loader.tsx(9,5): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+1:06:37 PM: components/Loader.tsx(10,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Loader.tsx(10,101): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Loader.tsx(11,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Loader.tsx(11,64): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/Loader.tsx(12,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ToolCard.tsx(1,19): error TS7016: Could not find a declaration file for module 'react'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/index.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+1:06:37 PM: components/ToolCard.tsx(10,46): error TS7031: Binding element 'tool' implicitly has an 'any' type.
+1:06:37 PM: components/ToolCard.tsx(10,52): error TS7031: Binding element 'onSelect' implicitly has an 'any' type.
+1:06:37 PM: components/ToolCard.tsx(15,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ToolCard.tsx(15,5): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+1:06:37 PM: components/ToolCard.tsx(20,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ToolCard.tsx(22,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ToolCard.tsx(23,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ToolCard.tsx(23,48): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ToolCard.tsx(24,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ToolCard.tsx(24,23): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/ToolCard.tsx(25,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/WatermarkSelector.tsx(1,53): error TS7016: Could not find a declaration file for module 'react'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/index.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+1:06:37 PM: components/WatermarkSelector.tsx(8,64): error TS7031: Binding element 'imageUrl' implicitly has an 'any' type.
+1:06:37 PM: components/WatermarkSelector.tsx(8,74): error TS7031: Binding element 'onAreaSelect' implicitly has an 'any' type.
+1:06:37 PM: components/WatermarkSelector.tsx(61,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/WatermarkSelector.tsx(61,5): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+1:06:37 PM: components/WatermarkSelector.tsx(62,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/WatermarkSelector.tsx(62,118): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/WatermarkSelector.tsx(63,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/WatermarkSelector.tsx(71,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/WatermarkSelector.tsx(78,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/WatermarkSelector.tsx(88,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: components/WatermarkSelector.tsx(89,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: constants/tools.tsx(1,19): error TS7016: Could not find a declaration file for module 'react'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/index.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+1:06:37 PM: constants/tools.tsx(4,73): error TS7006: Parameter 'props' implicitly has an 'any' type.
+1:06:37 PM: constants/tools.tsx(5,3): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: constants/tools.tsx(5,3): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+1:06:37 PM: constants/tools.tsx(6,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: constants/tools.tsx(7,3): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: constants/tools.tsx(10,72): error TS7006: Parameter 'props' implicitly has an 'any' type.
+1:06:37 PM: constants/tools.tsx(11,3): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: constants/tools.tsx(12,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: constants/tools.tsx(13,3): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: constants/tools.tsx(16,69): error TS7006: Parameter 'props' implicitly has an 'any' type.
+1:06:37 PM: constants/tools.tsx(17,3): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: constants/tools.tsx(18,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: constants/tools.tsx(19,3): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: constants/tools.tsx(22,70): error TS7006: Parameter 'props' implicitly has an 'any' type.
+1:06:37 PM: constants/tools.tsx(23,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: constants/tools.tsx(24,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: constants/tools.tsx(25,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: constants/tools.tsx(26,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: constants/tools.tsx(27,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: constants/tools.tsx(28,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: constants/tools.tsx(29,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: constants/tools.tsx(32,69): error TS7006: Parameter 'props' implicitly has an 'any' type.
+1:06:37 PM: constants/tools.tsx(33,3): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: constants/tools.tsx(34,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: constants/tools.tsx(35,3): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+1:06:37 PM: hooks/useScrollAnimation.ts(1,45): error TS7016: Could not find a declaration file for module 'react'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/index.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+1:06:37 PM: index.tsx(1,19): error TS7016: Could not find a declaration file for module 'react'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/index.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+1:06:37 PM: index.tsx(2,22): error TS7016: Could not find a declaration file for module 'react-dom/client'. '/opt/build/repo/ImagesToolWebsite/node_modules/react-dom/client.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react-dom` if it exists or add a new declaration (.d.ts) file containing `declare module 'react-dom/client';`
+1:06:37 PM: index.tsx(13,3): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+1:06:37 PM: netlify/functions/gemini-proxy.ts(4,17): error TS2580: Cannot find name 'process'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node`.
+1:06:37 PM: types.ts(1,19): error TS7016: Could not find a declaration file for module 'react'. '/opt/build/repo/ImagesToolWebsite/node_modules/react/index.js' implicitly has an 'any' type.
+1:06:37 PM:   Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+1:06:37 PM: vite.config.ts(1,18): error TS2307: Cannot find module 'path' or its corresponding type declarations.
+1:06:37 PM: vite.config.ts(2,39): error TS2307: Cannot find module 'vite' or its corresponding type declarations.
+1:06:37 PM: vite.config.ts(3,19): error TS2307: Cannot find module '@vitejs/plugin-react' or its corresponding type declarations.
+1:06:37 PM: vite.config.ts(19,29): error TS2580: Cannot find name 'process'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node`.
+1:06:37 PM: ​
+1:06:37 PM: "build.command" failed                                        
+1:06:37 PM: ────────────────────────────────────────────────────────────────
+1:06:37 PM: ​
+1:06:37 PM:   Error message
+1:06:37 PM:   Command failed with exit code 2: npm run build
+1:06:37 PM: ​
+1:06:37 PM:   Error location
+1:06:37 PM:   In build.command from netlify.toml:
+1:06:37 PM:   npm run build
+1:06:37 PM: ​
+1:06:37 PM:   Resolved config
+1:06:37 PM:   build:
+1:06:37 PM:     base: /opt/build/repo/ImagesToolWebsite
+1:06:37 PM:     command: npm run build
+1:06:37 PM:     commandOrigin: config
+1:06:37 PM:     environment:
+1:06:37 PM:       - GOOGLE_API_KEY
+1:06:37 PM:       - NODE_VERSION
+1:06:37 PM:     publish: /opt/build/repo/ImagesToolWebsite/dist
+1:06:37 PM:     publishOrigin: config
+1:06:37 PM:   functionsDirectory: /opt/build/repo/ImagesToolWebsite/netlify/functions
+1:06:38 PM: Build failed due to a user error: Build script returned non-zero exit code: 2
+1:06:38 PM: Failing build: Failed to build site
+1:06:38 PM: Finished processing build request in 13.629s
+1:06:38 PM: Failed during stage 'building site': Build script returned non-zero exit code: 2
+

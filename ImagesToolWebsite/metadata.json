@@ -1,0 +1,5 @@
+{
+  "name": "AI Image Tool Suite",
+  "description": "A modern web application featuring a suite of AI-powered image tools: Background Remover, Watermark Remover, Image Enhancer, and a Text-to-Icon Generator. Built with React, Tailwind CSS, and the Gemini API.",
+  "requestFramePermissions": []
+}
