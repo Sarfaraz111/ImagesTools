@@ -28,7 +28,7 @@ const ImageCompareSlider: React.FC<ImageCompareSliderProps> = ({ before, after }
     window.addEventListener('mouseup', handleGlobalMouseUp);
   };
   
-  const handleTouchStart = (e: React.TouchEvent<HTMLDivElement>) => {
+  const handleTouchStart = (_e: React.TouchEvent<HTMLDivElement>) => {
     const handleGlobalTouchMove = (event: TouchEvent) => handleMove(event.touches[0].clientX);
     const handleGlobalTouchEnd = () => {
         window.removeEventListener('touchmove', handleGlobalTouchMove);
