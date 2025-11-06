@@ -4,7 +4,8 @@
   "private": true,
   "description": "A modern web application featuring a suite of AI-powered image tools.",
   "scripts": {
-    "build": "tsc && mkdir -p dist && cp -r components constants hooks services *.html *.css *.js *.json dist"
+    "dev": "vite",
+    "build": "vite build"
   },
   "dependencies": {
     "@google/genai": "^1.25.0",
